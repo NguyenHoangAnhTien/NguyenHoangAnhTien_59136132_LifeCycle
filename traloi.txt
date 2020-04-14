@@ -16,6 +16,10 @@ dụng bấm vào nút home và sau đó mở lại ứng dụng.
 6. Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng
 khi chạy lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời nào? vì sao?
 
+-Thực phương thức vòng đời : OnPause vì khi ta nhấn nút back và khởi động ứng dụng thì nó sẽ ngay lập tức tạm dừng chương trình lại sau đó  orResume nếu activity
+ đó quay lại nếu không thì sẽ bị hệ thống kill
+
+
 
 
 
